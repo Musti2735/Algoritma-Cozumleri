@@ -1,6 +1,6 @@
 const artithGeo = (arr) =>{
     let diff = arr[1] - arr[0]
-    let isAritmatic = true
+    let isArithmatic = true
 
     let ratio = arr[1]/arr[0]
     let isGeometric = true
@@ -13,7 +13,7 @@ const artithGeo = (arr) =>{
             isGeometric = false
         }
     };
-    if(isAritmatic){
+    if(isArithmatic){
         return "Aritmatic"
     }
     else if(isGeometric){
