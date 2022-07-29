@@ -16,7 +16,7 @@ const seconfGreatLow = (arr) =>{
 
 }
 
-console.log(seconfGreatLow([2,3,3,5,14,67,56,33,5,2,6]))
+console.log(seconfGreatLow([2,3,3,5,14,67,56,33,60,5,2,6]))
 
 /*
 Soruda bizden istenen; 
