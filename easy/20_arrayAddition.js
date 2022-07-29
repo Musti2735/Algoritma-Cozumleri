@@ -7,7 +7,7 @@ const arrayAddition =(arr) =>{
   return total/2 == maxNum ? true : false;
 }
 
-console.log(arrayAddition([5,2,23,6,3,7]))
+console.log("%c" + arrayAddition([5,2,23,6,3,7]), "font-size:20px")
 
 
 /*
