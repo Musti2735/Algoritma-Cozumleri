@@ -1,42 +1,44 @@
 const countingMinutes = (time) =>{
-    let arr=time.split("-")
-    arr1 =arr[0].split(":")
-    arr2 = arr[1].split(":")
-   
-    if(arr1[1].split("")[arr1[1].length-2]=="a"){
-        num1 =  parseInt(arr1[0].toString()) * 60
-    }else if(arr1[1].split("")[arr1[1].length-2]=="p"){
-        num1 =  (parseInt(arr1[0].toString()) * 60) + 720
+    let times=time.split("-")
+    let time0 = {
+        meridiem:times[0].slice(-2),
+        hour:parseInt(times[0].split(":")[0]),
+        minute:parseInt(times[0].slice(-4,-2))
+    }
+    let time1 = {
+        meridiem:times[1].slice(-2),
+        hour:parseInt(times[1].split(":")[0]),
+        minute:parseInt(times[1].slice(-4,-2))
     }
 
-    if(arr2[1].split("")[arr2[1].length-2]=="a"){
-        num2 =  parseInt(arr2[0].toString()) * 60
-    }else if(arr2[1].split("")[arr2[1].length-2]=="p"){
-        num2 =  (parseInt(arr2[0].toString()) * 60) + 720
+    let minutes = 0
+    let result = 0
+    if(time0.meridiem==time1.meridiem){
+        minutes =(time1.hour*60 + time1.minute) - (time0.hour*60 + time0.minute)
+        result = minutes > 0 ? minutes: 24*60 + minutes
     }
-   return Math.abs(num1-num2)
+    else{
+        minutes =(time1.hour*60 + time1.minute) - (time0.hour*60 + time0.minute)
+        result = 12*60 + minutes
+    }
+
+    return result
 
 }
 
-console.log(countingMinutes("5:00pm-10:00am"))
+console.log(countingMinutes("5:00am-10:00am"))
 
 
 
 // 9:00am-10:00am
 
 /*
+String şekilinde verilen iki adet saat arasındaki farkın dakika olarak hesaplanması isteniyor.
+Parametre formatı ise: "9:00am-10:00am" şeklinde. 
 
-    if(arr1[1].split("")[arr1[1].length-2]="a"){
-        num1 =  parseInt(arr1[0].toString()) * 60
-    }else if(arr1[1].split("")[arr1[1].length-2]="p"){
-        num1 =  (parseInt(arr1[0].toString()) * 60) + 720
-    }
+Sorunun Çözümü
+1- Verilenlen string değerlerini hesaplarda kullanailmek adına parçaladık, gerekli yerleri parseInt() ile sayıya çevirdik ve bu değerler ile time1 ve time2 adında nesneler oluşturduk.
 
-    if(arr2[1].split("")[arr2[1].length-2]="a"){
-        num2 =  parseInt(arr2[0].toString()) * 60
-    }else if(arr2[1].split("")[arr2[1].length-2]="p"){
-        num2 =  (parseInt(arr2[0].toString()) * 60) + 720
-    }
-   return num1-num2
+2- Aynı meridyemde olan saatler için farklı, farklı meridyemlerde olan saatler için farklı hesaplama yaptık.
 
 */
