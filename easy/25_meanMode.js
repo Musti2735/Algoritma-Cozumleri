@@ -24,6 +24,7 @@ console.log(meanMode([1,3,3,3,5]))
 
 /*
 Verilen array'in içerisindeki değerlerin ortalaması ile mode değerinin eşit olup olmadığının kontrol edilmesi isteniyor.
-
+ilk forEach döngüsü ile sayıların toplamının ortalamasını aldık. 
+İkinci forEach döngüsü ile dizideki en fazla tekrar eden sayının mode değerini bulduk. 
 
 */
