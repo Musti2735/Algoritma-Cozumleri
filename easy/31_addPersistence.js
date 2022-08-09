@@ -1,4 +1,4 @@
-const addPersistence = (num) => {
+const multiPersistence = (num) => {
 
     if (num < 10) {
         return 0
@@ -21,14 +21,14 @@ const sum=(n) => {
     let arr = n.toString().split("")
     let sum = 0
     arr.forEach(element => {
-        sum += parseInt(element)
+        sum *= parseInt(element)
     })
     return sum
 }
 
 
 
-console.log(addPersistence(63352336))
+console.log(multiPersistence(6336))
 
 
 /*
