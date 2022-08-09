@@ -31,5 +31,7 @@ console.log(changSequence(["-1","-2","-3","-4","6","7","8"]))
 
 /*
 
+Verilen listde artış veya azalışın değiştiği indexi bulan algoritma.
 
+listenin sırayla elemanlarını birbirinden çıkartıp, sonucu yeni bir listeye push ediyoruz. tandency adında bir değişken oluşturum eğilimin artan olmasına 1 azalan olmasını -1 atıyoruz. artan ve azalan eğilimlere göre liste elemanlarını kontrol edip eğilim değiştiğinde elemanın indexini return ediyoruz.
 */
