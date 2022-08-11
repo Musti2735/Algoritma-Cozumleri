@@ -14,3 +14,4 @@ console.log(hammingDistance("karolin", "kathrin"))
 Çözüm olarak bir sayaç tanımladık ve for döngüsü ile iki kelimenin her bir harfini birbiri ile karşılaştırdık. Eğer harfler farklıysa count değerini 1 artırdık.
 
 */
+
