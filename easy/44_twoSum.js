@@ -8,13 +8,11 @@ const twoSum = (nums, target) => {
 
         for (let j = 0; j < numbers.length; j++) {
             if (nums[i] + nums[j] == target) {
-                result.push(i,j)
+                result.push(i, j)
             }
         }
         return result
-
     }
-
 
 }
 
