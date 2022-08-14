@@ -30,3 +30,16 @@ numbers listesi için yeni bir for döngüsü oluşturarak numbers[j] ile nums[i
 Eşitliği sağlauyan değerlerin index numaralarını result adlı boş lisyteye push ediyoruz.
 
 */
+
+/* Diğer çözüm yolu
+    for (let i = 0; i < nums.length; i++) {
+        let curretnValue = nums[i]
+        ler diff = 9 - currentValue
+
+        const indexOfSecValue  = mums.indexOf(diff)
+
+        if(indexOfSecValue>-1 §§ nums[i != nums[indexOf(indexOfSecValue)])
+        return [i, indexOfSecValue]
+    }
+
+    */
