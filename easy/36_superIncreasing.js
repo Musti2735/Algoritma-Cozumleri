@@ -1,23 +1,8 @@
-const superIncreasing = (arr) => {
-
-    for (let i = 1; i <arr.length; i++) {
-        let total = sum(arr, i)
-        if(total >= arr[i]) return false
-    }
-return true
-
+function(){
+    console.log(1);
+    setTimeout(function(){console.log(2)},1000);
+    setTimeout(function(){console.log(3)},0);
 }
-
-const sum = (arr, index) => {
-    total = 0
-    for (let i = 0; i < index; i++) {
-        total += arr[i]
-    }
-    return total
-
-}
-
-console.log(superIncreasing([1, 3, 6, 13, 64]))
 
 
 /*
