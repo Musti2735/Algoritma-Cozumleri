@@ -11,7 +11,7 @@ const scaleBalancing = (arr)=>{
 
     //2.senaryo - fark, kümede yoksa ve iki ağırlığın toplamı ile bulunması gerekiyorsa 
 
-    //While döngüsü içinde Sağdan ve soldan toplama işlemi yaparak diff değerini veren sonucu buluruz.
+    //While döngüsü içinde Sağdan ve soldan toplama işlemi yaparak diff değerini veren sonucu buluruz..
 
     let leftIndex = 0;
     let rigthIndex = weigths.length-1
