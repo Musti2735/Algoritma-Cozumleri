@@ -6,63 +6,64 @@ Kaynak olarak <a href="https://www.youtube.com/watch?v=AkeYDf5P54E&list=PL0Au88Q
 
 
 Easy 
-1-User Validation
-2-Longest Word
-3-First Ractorial
-4-Firs Reverse
-5-Find Intersection
-6-Question Mark
-7-Letter Change
-8-Simple Adding
-9-Letter Capatalize
-10-Simple Symbols
-11-Number Chec
-12-Time Converter
-13-Alphabet Soup
-14-abCheck
-15-Vowel Count
-16-Word Count
-17-ExOh Algorithm
-18-isPalidrome
-19-ArithGeo
-20-Array Addition
-21-Letter Count
-22-Second Great Low
-23-Division Stingifield
-24-Count Minutes
-25-Meen Mode
-26-Dash Insert
-27-Swap Case
-28-Number Addition
-29-First Greatest
-30-Power Of Two
-31-Additive Persistence
-32-Multiplicative Persistence
-33-Offline Minimum
-34-Changing Sequence
-35-Overlapping Ranges
-36-Super Increasing
-37-Hamming Distance
-38-Bit Wise
-39-Wave Sorting
-40-Array Matching
-41-Binary Reverse
-42-Largest Pair
-43-First Non Repeating
-44-Two Sums
-45-Product digits
-
-Medium
-1-Palidrome
-2-Power Of Set
-3-Palidrome Creator
-4-To Roman
-5-Two Sum 2
-6-Three Sum
-
-
-
-
+1-User Validation <br>
+2-Longest Word <br>
+3-First Ractorial <br>
+4-Firs Reverse <br>
+5-Find Intersection  <br>
+6-Question Mark <br>
+7-Letter Change <br>
+8-Simple Adding <br>
+9-Letter Capatalize <br>
+10-Simple Symbols <br>
+11-Number Chec <br>
+12-Time Converter <br>
+13-Alphabet Soup <br>
+14-abCheck <br>
+15-Vowel Count <br>
+16-Word Count <br>
+17-ExOh Algorithm  <br>
+18-isPalidrome <br>
+19-ArithGeo <br>
+20-Array Addition  <br>
+21-Letter Count <br>
+22-Second Great Low <br>
+23-Division Stingifield <br>
+24-Count Minutes <br>
+25-Meen Mode <br>
+26-Dash Insert <br>
+27-Swap Case <br>
+28-Number Addition <br>
+29-First Greatest <br>
+30-Power Of Two <br>
+31-Additive Persistence <br>
+32-Multiplicative Persistence <br>
+33-Offline Minimum <br>
+34-Changing Sequence <br>
+35-Overlapping Ranges <br>
+36-Super Increasing <br>
+37-Hamming Distance <br>
+38-Bit Wise <br>
+39-Wave Sorting <br>
+40-Array Matching <br>
+41-Binary Reverse <br>
+42-Largest Pair <br>
+43-First Non Repeating <br>
+44-Two Sums <br>
+45-Product digits <br>
+46-Duplicate  <br>
+47-Valid Anagram  <br> <br>
+Medium <br>
+1-Palidrome  <br>
+2-Power Of Set <br>
+3-Palidrome Creator <br>
+4-To Roman <br>
+5-Two Sum 2 <br>
+6-Three Sum <br>
+7-Scale Balancing <br>
+8-Time Diffirent <br>
+9- Pascal  <br>
+10-Wowel Square  <br>
 
 
 
