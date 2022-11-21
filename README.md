@@ -2,10 +2,10 @@
 
 CoderByte gibi çeşitli platformlarda bulunan algoritma sorularının çözümleri için yaptığım çalışmada, ayrı ayrı .js uzantılı dosyalarda soru ve çözümleri yer almaktaadır.
 
-Kaynak olarak <a href="https://www.youtube.com/watch?v=AkeYDf5P54E&list=PL0Au88Qum4UmiN0WHD6NKrZNpQqiUwwqe"> adresindeki <a/>youtebe serisi takip edilmiş ve konular işlenmiştir.
+<a href="https://www.youtube.com/watch?v=AkeYDf5P54E&list=PL0Au88Qum4UmiN0WHD6NKrZNpQqiUwwqe"> adresindeki <a/>youtebe serisi ile başka kaynaklardaki konular takip edilmiştir.
 
 
-Easy 
+<h2><b>Easy  <br><h2>
 1-User Validation <br>
 2-Longest Word <br>
 3-First Ractorial <br>
@@ -53,7 +53,9 @@ Easy
 45-Product digits <br>
 46-Duplicate  <br>
 47-Valid Anagram  <br> <br>
-Medium <br>
+  
+  
+<h2><b>Medium  <br><h2>
 1-Palidrome  <br>
 2-Power Of Set <br>
 3-Palidrome Creator <br>
