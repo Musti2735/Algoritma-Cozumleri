@@ -5,7 +5,7 @@ CoderByte gibi çeşitli platformlarda bulunan algoritma sorularının çözüml
 <a href="https://www.youtube.com/watch?v=AkeYDf5P54E&list=PL0Au88Qum4UmiN0WHD6NKrZNpQqiUwwqe"> adresindeki <a/>youtebe serisi ile başka kaynaklardaki konular takip edilmiştir.
 
 
-<h2><b>Easy  <br><h2>
+<h2><b>Easy  </b></h2><br>
 1-User Validation <br>
 2-Longest Word <br>
 3-First Ractorial <br>
@@ -55,7 +55,7 @@ CoderByte gibi çeşitli platformlarda bulunan algoritma sorularının çözüml
 47-Valid Anagram  <br> <br>
   
   
-<h2><b>Medium  <br><h2>
+<h2><b>Medium  </b></h2> <br>
 1-Palidrome  <br>
 2-Power Of Set <br>
 3-Palidrome Creator <br>
