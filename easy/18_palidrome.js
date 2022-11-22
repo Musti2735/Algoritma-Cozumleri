@@ -9,7 +9,7 @@ console.log(palidrome("racE? ecar"))
 
 
 /*
-Verilen string ifadenin tersten okunuşunun da aynı olması halinde palidrome denilir. Bir kelimenin palidrome olup olmadığını bulan algoritma.
+Verilen string ifadenin tersten okunuşunun da aynı olması halinde palidrome denilir. Bir kelimenin palidrome olup olmadığını bulan algoritma..
 string ifadeyi öncelikle regexp kullanarak aradaki boşluk ifadeyi kaldırdık ve tüm harfleri küçük harfe dönüştürdük. split ile arraye ve reverse ile terse çevirdik. join ile tekrar string yaptığımı ifadeyi ilk str ile karşılaştırdık.
 
 */
