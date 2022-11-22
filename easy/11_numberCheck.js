@@ -11,3 +11,5 @@ const numberCheck =(num1, num2) =>{
 }
 
 console.log(numberCheck(1,1))
+
+// Verilen iki adet num değerinin büyük-küçük olarak karşılaştıran uygulama

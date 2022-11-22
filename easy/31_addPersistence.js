@@ -21,7 +21,7 @@ const sum=(n) => {
     let arr = n.toString().split("")
     let sum = 0
     arr.forEach(element => {
-        sum *= parseInt(element)
+        sum += parseInt(element)
     })
     return sum
 }
@@ -34,4 +34,8 @@ console.log(multiPersistence(6336))
 /*
 Additive persistence: bir sayıyı oluşturan rakamların toplamlarının tek basamaklı bir sayıya eşit oluncaya kadar yapılması gereken toplama
 işlemi adedir.
+
+sum fonksiyonu içinde gelen sayının her bir basamağını toplayan bir işlem yaptık. Bu fonksiyonu while döngüsü içinde toplam tek basamaklı bir sayı olana kadar döngüye soktuk.
+
+
 */

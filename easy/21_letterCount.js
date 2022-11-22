@@ -30,6 +30,7 @@ const letterCount = (str) =>{
 console.log(letterCount("Todaytt, is the greattest day ever!"))
 
 /*
+
 1 - Bizden sadece harflerin sayısı üzerinden değerlendirme yapmamız istendiği için, harf ve boşluk dışındaki karakterleri siliyoruz.
 2 - Daha sonradan karışıklık olmaması içine harfleri toLowerCase metodu ile küçük harfle dönüştürüyoruz.
 3 - Oluşturduğumuz yeni string'i .split() metodu ile array'e dönüştürüyoruz.

@@ -6,6 +6,8 @@ const alphabetSoup =(str) =>{
 console.log(alphabetSoup("helloworld"));
 
 /*
+Verilen string ifadede harfleri alfabetik olarak sıralaya uygulama
+
 Sorunun Çözümünde İzlenen Yol
 1- İlk olarak bize verilen değeri array'e çevirdik.
 2- Array Üzerinde .sort() metodunu uyguladık,

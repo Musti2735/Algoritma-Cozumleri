@@ -1,7 +1,9 @@
-function aa(){
-    var a = b = 5;
+const timeConvert = (num) =>{
+    let result = `${Math.floor(num/60)}:${num % 60}`
+    return result
 }
-console.log(b)
+
+console.log(timeConvert(63))
 
 /*
 1 - Verilen sayıdan Math.floor() kullanılarak saat ve % kullanarak da dakika hesaplanmıştır. 

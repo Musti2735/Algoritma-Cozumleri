@@ -1,11 +1,11 @@
 const palidrome = (str)=>{
 
-    let newStr = str.replace(/ /g, "").toLowerCase()
+    let newStr = str.replace(/[^a-zA-Z0-9]/gi, "").toLowerCase()
     
     return newStr.split("").reverse().join("") === newStr ? true :false
     
 }
-console.log(palidrome("racE car"))
+console.log(palidrome("racE? ecar"))
 
 
 /*

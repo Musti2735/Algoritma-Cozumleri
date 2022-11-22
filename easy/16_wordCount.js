@@ -6,5 +6,7 @@ const wordByte =(str) =>{
 console.log(wordByte("Hello World this is JavaScript"))
 
 /*
+Verilen string ifadede harf sayısını sayan uygulama
+
 İlk olarak bize verilen string'in önünde ve arkasında olması muhtemel boşlukları .trim() metodu ile sildik. Sonrasında .split() kullanarak bu string'i bir array'e çevirdik ve array'in uzunluğuna ise .length property ile ulaşarak, bu değeri return ettik.
 */ 

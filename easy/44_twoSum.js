@@ -1,22 +1,17 @@
 const twoSum = (nums, target) => {
+    const indices = new Map();
 
-    result = []
+    for (let index = 0; index < nums.length; index++) {
+        const diff = target - nums[index];
 
-    for (let i = 0; i < nums.length; i++) {
-
-        const numbers = nums.filter(item => item != nums[i])
-
-        for (let j = 0; j < numbers.length; j++) {
-            if (nums[i] + nums[j] == target) {
-                result.push(i, j)
-            }
+        if (indices.has(diff)) {
+            return [indices.get(diff), index]
         }
-        return result
+
+        indices.set(nums[index], index)
     }
-
 }
-
-console.log(twoSum([2, 11, 7, 15], 9));
+console.log(twoSum([3,2,3], 6));
 
 
 /*
@@ -36,9 +31,9 @@ Eşitliği sağlauyan değerlerin index numaralarını result adlı boş lisytey
         let curretnValue = nums[i]
         ler diff = 9 - currentValue
 
-        const indexOfSecValue  = mums.indexOf(diff)
+        const indexOfSecValue  = nums.indexOf(diff)
 
-        if(indexOfSecValue>-1 §§ nums[i != nums[indexOf(indexOfSecValue)])
+        if(indexOfSecValue>-1 §§ nums[i] != nums[indexOf(indexOfSecValue)])
         return [i, indexOfSecValue]
     }
 

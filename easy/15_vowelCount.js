@@ -16,6 +16,8 @@ console.log(vowelCount("Hello World This is JavaScript"))
 
 
 /*
+Verilen string ifadede sesli harfleri sayan uygulama
+
 Sorunun Çözümünde İzlenen Yol
 1 - Bize verilen String'in üzerinde forEach Döngüsü kullanabilmek için bir array oluşturduk. 
 2- forEach içerisinde if bloğu, regeular expression ve .test metodu kullanarak döngü içerisinde yer alan karakterin sesli bir harf olup olmadığını kontrol ettik.

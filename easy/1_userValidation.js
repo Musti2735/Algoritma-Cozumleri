@@ -18,6 +18,8 @@ export const userValidation = (str)=>{
     // .test() metodu ile kontrol sağlanır.
 }
 
+console.log(userValidation("Musti2233"))
+
 
 
 

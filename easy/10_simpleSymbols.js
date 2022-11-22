@@ -25,6 +25,7 @@ const simpleSymbol = (str) =>{
 console.log(simpleSymbol("++d+====+c++==+a+"))
 
 /* 
+Verilen string ifadede iki + karekteri arasında bir rakam olup olmadığını kontrol eden uygulama
 
 1 - Soruda forEach döngüsü kullanacağımız için ilk olarak bize verilen string'den .split() metodu ile yeni bir array oluşturduk.
  2 - Her bir harfin bizden istenilen koşulu sağlayıp sağlamadığının kayıt edileceği bir array oluşturduk.

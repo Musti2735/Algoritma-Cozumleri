@@ -32,6 +32,8 @@ console.log(multiPersistence(63233336))
 
 
 /*
-Multiply persistence: bir sayıyı oluşturan rakamların çarpımlarının tek basamaklı bir sayıya eşit oluncaya kadar yapılması gereken toplama
+Multiply persistence: bir sayıyı oluşturan rakamların çarpımlarının tek basamaklı bir sayıya eşit oluncaya kadar yapılması gereken çarpma
 işlemi adedir.
+
+sum fonksiyonu içinde gelen sayının her bir basamağını çarpan bir işlem yaptık. Bu fonksiyonu while döngüsü içinde toplam tek basamaklı bir sayı olana kadar döngüye soktuk.
 */
